@@ -30,6 +30,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //Variable
         double altura;
 
         try {
@@ -47,8 +48,10 @@ public class Main {
             System.out.println("ERROR: Entrada Incorrecta");
 
         } finally {
+
             //Borrar buffer
             SCN.nextLine();
+
         }//finally
 
     }//main
